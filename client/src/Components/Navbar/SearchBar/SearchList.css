@@ -1,0 +1,25 @@
+.item_container{
+    width: 30rem;
+    position: absolute;
+    top:4.8rem;
+    color: black;
+    height: fit-content;
+    z-index: 2;
+    background-color: white;
+}
+
+.item{
+    border-bottom: 1px solid rgb(36,36,36);
+    display: flex;
+    align-items: center;
+}
+
+.search-icon{
+    font-size: 1.5rem;
+    color: rgb(36,36,36);
+    padding: 1rem;
+}
+
+.item_container :hover{
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container_pages_app {
+  display: flex;
+  background-color: rgb(19, 19, 19);
+}
+
+.container2_pages_app {
+  width: calc(100vw - 6rem);
+  height: calc(100vh - 5.5rem);
+  border-top: 2px solid rgb(128, 128, 129, 0.45);
+  overflow-y: auto;
+}
+
+.container_Pages_App {
+  display: flex;
+  background-color: rgb(19, 19, 19);
+}
+.container2_Pages_App {
+  width: calc(100vw - 5rem);
+  height: calc(100vh - 3.65rem);
+  border-top: 2px solid rgb(128, 128, 128, 0.45);
+  overflow-y: auto;
+}
+.video_box_app {
+  width: 21rem;
+  height: 17rem;
+  margin-bottom: 1rem;
+  border: 2px solid transparent;
+}
+video {
+  background-color: rgba(8, 8, 8, 0.662);
+}
+.dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 100%;
+  background-color: white;
+  margin: auto 0.5rem;
+}
+
+.Chanel_logo_App {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: auto;
+  border-radius: 100%;
+  background-color: rgb(224, 227, 214);
+  display: flex;
+}

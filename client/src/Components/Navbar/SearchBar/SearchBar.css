@@ -1,0 +1,42 @@
+.Search_container {
+    margin: auto;
+    width: fit-content;  
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search_container input {
+  background-color: rgb(18, 18, 18);
+  width: 30rem;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  color: white;
+  font-size: large;
+  padding: 0.2rem;
+  height: 2rem;
+  padding-left: 2rem;
+} 
+
+.search_icon_container {
+    background: rgb(85, 78, 78);
+    height: 40px;
+    width: 60px;
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mic-container{
+  background-color: rgb(85, 78, 78);
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
